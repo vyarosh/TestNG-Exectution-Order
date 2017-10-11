@@ -1,0 +1,14 @@
+.DS_Store
+.idea
+.gradle
+build/*
+target/*
+
+*.class
+*.jar
+*.bak
+*.json
+*.iml
+chromedriver.log
+
+*.html
