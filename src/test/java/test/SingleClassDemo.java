@@ -1,6 +1,5 @@
 package test;
 
-import org.testng.SkipException;
 import org.testng.annotations.Test;
 import static org.testng.Assert.fail;
 
@@ -21,10 +20,8 @@ public class SingleClassDemo extends TestFactory {
         fail(getFailMessage());
     }
 
-    @Test
+    @Test(enabled=false)
     public void test4() {
-        logTestName();
-        throw new SkipException("Skip");
-//        logSkipTest();
+        logSkipTest();
     }
 }

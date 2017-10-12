@@ -6,7 +6,7 @@
             <class name="test.AnotherClassDemo"/>
             <class name="test.SingleClassDemo"/>
 			<class name="test.SubClassDemo"/>
-			<class name="test.SubsubClassDemo"/>
+			<class name="test.SubSubClassDemo"/>
         </classes>
     </test>
 	<test name="SnigleDemo">
@@ -16,7 +16,7 @@
     </test>
 	<test name="NestedClassesDemo">
         <classes>
-            <class name="test.SubsubClassDemo"/>
+            <class name="test.SubSubClassDemo"/>
         </classes>
     </test>
 </suite>
