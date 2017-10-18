@@ -9,6 +9,5 @@ target/*
 *.bak
 *.json
 *.iml
-chromedriver.log
 
 *.html
